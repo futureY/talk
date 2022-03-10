@@ -20,7 +20,7 @@
   };
   const onClose = () => {
     sessionStorage.removeItem('token');
-    window.location.replace('login.html');
+    window.location.replace(baseURL + 'login.html');
   };
   const onInputkeyup = (e) => {
     if (

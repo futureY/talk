@@ -39,7 +39,7 @@
     //   window.alert(result.msg);
     //   return;
     // }
-    res && window.location.replace('/');
+    res && window.location.replace(baseURL);
   };
 
   init();

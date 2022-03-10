@@ -39,7 +39,7 @@
     //   return;
     // }
 
-    res && window.location.replace('/');
+    res && window.location.replace(baseURL + 'login.html');
   };
   const checkForm = (loginId, nickname, loginPwd, conformPwd) => {
     switch (true) {
